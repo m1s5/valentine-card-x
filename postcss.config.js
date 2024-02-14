@@ -1,6 +1,7 @@
-module.exports = {
+const conf = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
   },
 };
+export default conf;
