@@ -6,9 +6,17 @@ import Confetti from "react-confetti";
 export default function Home() {
   const [showCard, setShowCard] = useState(true);
   const [hw, setHw] = useState<{ width: number; height: number }>({
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: 10000,
+    height: 10000,
+    // width: window.innerWidth,
+    // height: window.innerHeight,
   });
+  useEffect(() => {
+    setHw({
+      width: window.innerWidth,
+      height: window.innerHeight,
+    });
+  }, []);
 
   const FlippingCard = () => (
     <div className="relative bg-red-300 w-[500px] h-[500px] flip-card">
