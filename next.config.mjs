@@ -3,7 +3,7 @@ const nextConfig = {
   output: "export",
   images: { unoptimized: true },
   experimental: {},
-  basePath: "/ai-chat-bot-test",
+  basePath: "/valentine-card-x",
   reactStrictMode: true,
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
