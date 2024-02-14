@@ -22,11 +22,12 @@ export const App = () => {
     <div className="relative bg-red-300 w-[500px] h-[500px] flip-card">
       <div className="flip-card-inner">
         <div className="flip-card-front">
-          <Image width={500} src="card.png" alt="Valentine card" />
+          <Image unoptimized width={500} src="card.png" alt="Valentine card" />
         </div>
         <div className="flip-card-back">
           <div className="">
             <Image
+              unoptimized
               width={500}
               className="absolute z-0"
               src="card-backface.png"
